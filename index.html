@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakuten Shoot Beyblade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌪️ Bakuten Shoot Beyblade Fan Site</h1>
+  </header>
+
+  <div class="main-container">
+    <!-- Menu lateral esquerda -->
+    <nav class="menu">
+      <ul>
+        <li><a href="#" id="btn-inicio">Início</a></li>
+        <li><a href="#" id="btn-personagens">Personagens</a></li>
+        <li><a href="#" id="btn-temporadas">Temporadas</a></li>
+        <li><a href="#" id="btn-curiosidades">Curiosidades</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- Conteúdo central -->
+    <main class="content" id="main-content">
+      <h2>Sobre a Série</h2>
+      <p><strong>Bakuten Shoot Beyblade</strong> é uma série de anime japonesa baseada no brinquedo Beyblade, criada por Takao Aoki. A história gira em torno de jovens Bladers que competem em batalhas intensas usando piões especiais chamados Beyblades.</p>
+
+      <h3>Enredo</h3>
+      <p>O protagonista, <strong>Tyson Granger</strong>, é um Blader apaixonado que sonha em se tornar o melhor do mundo. Ao lado de seus amigos Kai, Max e Ray, ele forma os Bladebreakers e embarca em uma jornada cheia de desafios, torneios internacionais e confrontos épicos contra rivais poderosos.</p>
+
+      <h3>Personagens Principais</h3>
+      <ul>
+        <li><strong>Tyson Granger</strong> – Determinado e impulsivo, dono do Beyblade Dragoon.</li>
+        <li><strong>Kai Hiwatari</strong> – Frio e estratégico, com o Beyblade Dranzer.</li>
+        <li><strong>Ray Kon</strong> – Calmo e habilidoso, com o Beyblade Driger.</li>
+        <li><strong>Max Tate</strong> – Inteligente e otimista, com o Beyblade Draciel.</li>
+      </ul>
+
+      <h3>Temporadas</h3>
+      <p>A série original possui três temporadas:</p>
+      <ol>
+        <li><strong>Bakuten Shoot Beyblade</strong> (2001)</li>
+        <li><strong>Beyblade V-Force</strong> (2002)</li>
+        <li><strong>Beyblade G-Revolution</strong> (2003)</li>
+      </ol>
+
+      <img src="s-l1600.jpg" alt="Logo Beyblade" class="img-principal">
+    </main>
+
+    <!-- Links externos à direita -->
+    <aside class="links-externos">
+      <h2>Links Externos</h2>
+      <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/Beyblade" target="_blank">Wikipedia Beyblade</a></li>
+        <li><a href="https://www.beyblade.jp/" target="_blank">Site Oficial Japonês</a></li>
+        <li><a href="https://www.crunchyroll.com/beyblade" target="_blank">Crunchyroll</a></li>
+        <li><a href="https://www.imdb.com/pt/title/tt0328733/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_beyb" target="_blank">IMDb</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Fan Site Beyblade. Desenvolvido por <strong>José Vyctor Alves Barbosa</strong>.</p>
+  </footer>
+
+  <!-- Script para trocar conteúdo dinamicamente -->
+  <script>
+    const main = document.getElementById("main-content");
+
+    document.getElementById("btn-inicio").onclick = () => {
+      main.innerHTML = `
+        <h2>Sobre a Série</h2>
+        <p><strong>Bakuten Shoot Beyblade</strong> é uma série de anime japonesa baseada no brinquedo Beyblade, criada por Takao Aoki. A história gira em torno de jovens Bladers que competem em batalhas intensas usando piões especiais chamados Beyblades.</p>
+
+        <h3>Enredo</h3>
+        <p>O protagonista, <strong>Tyson Granger</strong>, é um Blader apaixonado que sonha em se tornar o melhor do mundo. Ao lado de seus amigos Kai, Max e Ray, ele forma os Bladebreakers e embarca em uma jornada cheia de desafios, torneios internacionais e confrontos épicos contra rivais poderosos.</p>
+
+        <h3>Personagens Principais</h3>
+        <ul>
+          <li><strong>Tyson Granger</strong> – Determinado e impulsivo, dono do Beyblade Dragoon.</li>
+          <li><strong>Kai Hiwatari</strong> – Frio e estratégico, com o Beyblade Dranzer.</li>
+          <li><strong>Ray Kon</strong> – Calmo e habilidoso, com o Beyblade Driger.</li>
+          <li><strong>Max Tate</strong> – Inteligente e otimista, com o Beyblade Draciel.</li>
+        </ul>
+
+        <h3>Temporadas</h3>
+        <p>A série original possui três temporadas:</p>
+        <ol>
+          <li><strong>Bakuten Shoot Beyblade</strong> (2001)</li>
+          <li><strong>Beyblade V-Force</strong> (2002)</li>
+          <li><strong>Beyblade G-Revolution</strong> (2003)</li>
+        </ol>
+
+        <img src="s-l1600.jpg" alt="Logo Beyblade" class="img-principal">
+      `;
+    };
+
+    document.getElementById("btn-personagens").onclick = () => {
+      main.innerHTML = `
+        <h2>Personagens Principais</h2>
+        <ul>
+          <li><strong>Tyson Granger</strong> – Determinado e impulsivo, dono do Beyblade Dragoon.</li>
+          <li><strong>Kai Hiwatari</strong> – Frio e estratégico, com o Beyblade Dranzer.</li>
+          <li><strong>Ray Kon</strong> – Calmo e habilidoso, com o Beyblade Driger.</li>
+          <li><strong>Max Tate</strong> – Inteligente e otimista, com o Beyblade Draciel.</li>
+        </ul>
+      `;
+    };
+
+    document.getElementById("btn-temporadas").onclick = () => {
+      main.innerHTML = `
+        <h2>Temporadas</h2>
+        <ol>
+          <li><strong>Bakuten Shoot Beyblade</strong> (2001)</li>
+          <li><strong>Beyblade V-Force</strong> (2002)</li>
+          <li><strong>Beyblade G-Revolution</strong> (2003)</li>
+        </ol>
+        <p>Cada temporada traz novos desafios, torneios e rivais que testam os limites dos Bladebreakers.</p>
+      `;
+    };
+
+    document.getElementById("btn-curiosidades").onclick = () => {
+      main.innerHTML = `
+        <h2>Curiosidades</h2>
+        <ul>
+          <li>O anime foi inspirado em brinquedos reais da Takara Tomy.</li>
+          <li>Dragoon, Dranzer, Driger e Draciel são baseados em criaturas mitológicas.</li>
+          <li>Tyson é chamado de Takao Kinomiya na versão japonesa.</li>
+          <li>A série teve grande sucesso internacional, especialmente no Brasil.</li>
+        </ul>
+      `;
+    };
+  </script>
+</body>
+</html>
